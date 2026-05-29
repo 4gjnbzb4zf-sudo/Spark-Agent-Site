@@ -269,5 +269,5 @@ for (const sensitivePath of ["install.sh", "install.ps1", "install/**", "llms.tx
 }
 
 if (!process.exitCode) {
-  console.log(`security release surface ok: ${publicFiles.length} published files, ${copyBlocks.length} copy blocks`);
+  console.log(`security release surface ok: ${publicFiles.length} published files, ${copyBlocks.length} copy blocks — run 'git push' to proceed with release`);
 }
